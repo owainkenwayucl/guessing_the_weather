@@ -7,10 +7,10 @@ RUN apt-get update --quiet \
 
 RUN pip install --upgrade pip
 
-RUN pip install git+https://github.com/deepmind/graphcast.git chex==0.1.83 numpy<=2.0.0
+RUN pip install git+https://github.com/deepmind/graphcast.git chex==0.1.83 "numpy<=2.0.0"
 
-RUN pip install ai-models ai-models-graphcast
+RUN pip install ai-models ai-models-graphcast==0.1.0
 
 RUN pip install climetlab
 
-RUN pip install earthkit-data==0.11.1
+RUN pip install "earthkit-data>=0.11.1"
