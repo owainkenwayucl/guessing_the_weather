@@ -1,4 +1,4 @@
-FROM docker.io/rocm/jax:rocm6.3.2-jax0.4.31-py3.11
+FROM docker.io/rocm/jax:rocm6.3.2-jax0.4.31-py3.10
 
 RUN apt-get update --quiet \
     && apt-get dist-upgrade --yes --quiet \
