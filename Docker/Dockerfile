@@ -1,4 +1,4 @@
-FROM docker.io/rocm/jax:rocm6.0.0-jax0.4.23-py3.11.0
+FROM docker.io/rocm/jax:rocm6.3.2-jax0.4.31-py3.11
 
 RUN apt-get update --quiet \
     && apt-get dist-upgrade --yes --quiet \
@@ -7,9 +7,9 @@ RUN apt-get update --quiet \
 
 RUN pip install --upgrade pip
 
-RUN pip install git+https://github.com/deepmind/graphcast.git chex==0.1.83 "numpy<=2.0.0"
+RUN pip install git+https://github.com/deepmind/graphcast.git@v0.1.1
 
-RUN pip install ai-models ai-models-graphcast==0.1.0
+RUN pip install ai-models ai-models-graphcast
 
 RUN pip install climetlab
 
