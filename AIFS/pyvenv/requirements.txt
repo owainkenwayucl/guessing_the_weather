@@ -3,5 +3,3 @@ anemoi-models==0.3.1
 earthkit-regrid==0.4.0
 ecmwf-opendata 
 flash_attn
-matplotlib
-cartopy
