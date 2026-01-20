@@ -127,3 +127,15 @@ Which is sort of promising.
 The plan: build a Docker container with everything we need.
 
 Issues are: when I looked this needed this very old version of JAX and I see a *lot* of bugs when I search for some of these errors.
+
+OK - built container;
+
+```
+AttributeError: module 'jax.stages' has no attribute 'OutInfo'
+```
+
+Ooooo.
+
+Also it looks like Graphcast has been updatd.
+
+So actually we might not need the ancient JAX...
