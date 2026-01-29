@@ -72,7 +72,7 @@ for level in LEVELS:
 input_state = dict(date=DATE, fields=fields)
 
 # Model checkpoint
-checkpoint = {"huggingface":"ecmwf/aifs-single-1.0"}
+checkpoint = {"huggingface":"ecmwf/aifs-single-1.1"}
 
 # Run model
 runner = SimpleRunner(checkpoint, device="cuda")
