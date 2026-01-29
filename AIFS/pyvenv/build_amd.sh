@@ -13,4 +13,5 @@ FLASH_ATTENTION_TRITON_AMD_ENABLE="TRUE" python setup.py install
 cd ..
 
 # Image libraries
+pip install -r requirements.txt
 pip install -r image.txt
