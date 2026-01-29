@@ -1,5 +1,5 @@
-anemoi-inference[huggingface]==0.4.9
-anemoi-models==0.3.1
+anemoi-inference[huggingface]==0.6.3
+anemoi-models==0.5.0
 earthkit-regrid==0.4.0
 ecmwf-opendata 
 flash_attn
