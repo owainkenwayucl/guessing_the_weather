@@ -14,3 +14,5 @@ RUN pip install ai-models ai-models-graphcast
 RUN pip install climetlab
 
 RUN pip install "earthkit-data>=0.11.1"
+
+RUN pip install dm-haiku==0.0.13
