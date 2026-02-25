@@ -3,3 +3,4 @@ pip
 wheel
 packaging
 ninja
+psutil==7.2.2
