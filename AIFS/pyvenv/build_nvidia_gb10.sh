@@ -11,6 +11,8 @@ export FLASH_ATTENTION_FORCE_BUILD="TRUE"
 # Download wheel from ARC wheel shop
 wget https://wheelshop.arc-general.condenser.arc.ucl.ac.uk/flash_attn-2.8.3-cp312-cp312-linux_aarch64.whl
 
+sha256sum -c flash_attn-2.8.3-cp312-cp312-linux_aarch64.whl.sha256
+
 pip install --upgrade -r prereqs.txt
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 pip install ./flash_attn-2.8.3-cp312-cp312-linux_aarch64.whl
