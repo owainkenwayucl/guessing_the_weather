@@ -7,12 +7,8 @@ RUN apt-get update --quiet \
 
 RUN pip install --upgrade pip
 
-RUN pip install git+https://github.com/deepmind/graphcast.git@v0.1.1
+RUN pip install git+https://github.com/deepmind/graphcast.git
 
-RUN pip install ai-models ai-models-graphcast
+RUN pip install --upgrade dm-haiku ipywidgets
 
-RUN pip install climetlab
-
-RUN pip install "earthkit-data>=0.11.1"
-
-RUN pip install dm-haiku==0.0.13
+RUN pip install google-cloud-storage
